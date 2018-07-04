@@ -1,0 +1,68 @@
+h1 {
+	font-family: Impact;
+	font-size: 4em;
+	color: #13B3BF;
+	text-align: center;
+	
+
+
+}
+
+img {max-width:100%}
+
+
+body {
+	background: linear-gradient(pink, red);
+	
+	
+}
+
+a {
+    font-family: Impact;
+    font-size: 1em;
+    text-align: center;
+}
+
+button {
+    background-color: blueviolet;
+    border: 2px solid black;
+    color: white;
+    position: center;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 8px;
+    float: left;
+
+}
+button:hover {
+    background-color: darkmagenta; 
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+p {
+	background-color: #13B3BF;
+	font-family: Impact;
+	color: white;
+}
+
+@keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:-200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:200px; top:0px;}
+}
+
+/* The element to apply the animation to */
+h1 {
+    width: 1000px;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 10s;
+}
